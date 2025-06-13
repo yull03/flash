@@ -1,6 +1,20 @@
-
+// 420px 80vh(850px) 사이즈로
+.category{
+    width: 420px;
+    height: 80vh;
+    border: 1px solid #222;
+    border-radius: 2rem;
+}
+.category h1{
+    text-align: center;
+}
 .category-wrap{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Learn-Mode h2{
+    text-align: center;
 }
