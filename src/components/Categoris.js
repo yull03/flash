@@ -1,7 +1,6 @@
 
 
 const Categoris = ({cardData,onSelected}) => {
-    console.log(cardData[0].name);
     return (
         <div>
             <h1>학습 카테고리</h1>
